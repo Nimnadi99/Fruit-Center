@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    font-family: open sans, arial;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.logo img {
+    width: 180px;
+    margin-top: -29px;
+    height: 180px;
+    margin-left: -22px;
+    
+}
+#more-info{
+    width: 200px;
+    height: 70px;
+    font-size: 15px;
+    padding: 15px 7px;
+    margin-left: 560px;
+    border: none;
+    margin-top: 25px;
+    color: white;
+    background-color: #d93806;
+}
+.list ul {
+    display: flex;
+    list-style: none;
+    margin-top: -39px;
+
+}
+.list ul li {
+    margin-right: 70px;
+    color: orangered;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list ul li:hover{
+    color: #7c2307;
+}
+
+.middle img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -25px;
+    margin-bottom: 115px;
+}
+.fruit {
+    width: 180px;
+    height: 180pxpx;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.super-sale p {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #d93806;
+    margin-bottom: 20px;
+    position: relative;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-direction: reverse;  
+}
+@keyframes example {
+    0%   {background-color: rgb(255, 153, 0);}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+.item img {
+    width: 130px;
+    height: 130px;
+    
+}
+.item-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.gram p {
+    font-size: 16px;
+    margin-left: 49px;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+img.off {
+    width: 28px;
+    height: 25px;
+    margin-left: 23px;
+    margin-top: -102px;
+}
+.price p{
+    font-size: 16px;
+    margin-left: 40px;
+}
+.all-fruit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sale{
+    margin-bottom: 100px;
+}
+.fruits{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    background-color:#d93806 ;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.fruit-category{
+    display: grid;
+    grid-template-columns:200px 200px 200px;
+}
+
+.fruit-c{
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.fruit-c img{
+    width: 130px;
+    height: 130px;
+
+}
+.fruit-c p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.fruit-table{
+    margin-bottom: 100px;
+}
+.fruit-table p{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #d93806;
+
+}
+
+table{
+    width: 600px;
+    border:3px solid #d93806;
+    padding: 15px;
+    color: #d93806;
+    font-weight: bold;
+    margin-right: 50px;
+}
+th{
+    padding-right: 34px;
+    border:1px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+td{
+    padding: 14px;
+    padding-left: 39px;
+    border:1px solid black;
+
+}
+.fruits-only{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.juice{
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+}
+ol li {
+    margin-left: 20px;
+    font-size: 14px;
+    padding-top: 5px;
+}
+ul{
+    font-weight: bold;
+    font-style: italic;
+}
+.juice img{
+    width: 250px;
+    height: 250px;
+}
+.juices{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-around;
+}
+footer{
+    background-color: #d93806;
+    padding-top: 20px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+.about{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.caption{
+    font-size: 14px;
+    color: white;
+}
+.copyright{
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
